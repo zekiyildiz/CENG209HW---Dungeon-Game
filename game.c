@@ -388,6 +388,17 @@ int save_game(GameState *game, const char *filepath) {
     return 1;
 }
 
+void do_map(GameState *game) {
+    printf("Map:\n");
+    for(int i=0; i<game->room_count; i++) {
+        if(game->rooms[i]->discovered) {
+            printf("[%d] %s\n", i, game->rooms[i]->description);
+        } else {
+            printf("[%d] Unknown\n", i);
+        }
+    }
+}
+
 int load_game(GameState *game, const char *filepath) {
     FILE *f = fopen(filepath, "r");
     if(!f) {
