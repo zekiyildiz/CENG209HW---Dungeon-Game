@@ -97,7 +97,7 @@ GameState *init_game(void) {
     add_item_to_room(game->rooms[5], create_item("healing_potion", 2, ITEM_TYPE_FOOD, 0, 0, 25));
     add_item_to_room(game->rooms[6], create_item("silver_sword", 7, ITEM_TYPE_WEAPON, 10, 0, 35));
     add_item_to_room(game->rooms[7], create_item("diamond_armor", 12, ITEM_TYPE_ARMOR, 0, 10, 60));
-    add_item_to_room(game->rooms[8], create_item("golden_key", 1, ITEM_TYPE_GENERIC, 0, 0, 20));
+    add_item_to_room(game->rooms[8], create_item("golden_key", 1, ITEM_TYPE_ARMOR, 0, 0, 20));
     add_item_to_room(game->rooms[9], create_item("golden_crown", 1, ITEM_TYPE_QUEST, 0, 0, 0));
 
     // Monsters
