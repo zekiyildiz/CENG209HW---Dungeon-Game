@@ -278,9 +278,7 @@ void print_help(void) {
     printf("  attack             - Attack the creature in the room\n");
     printf("  equip <item>       - Equip an item from your inventory\n");
     printf("  unequip <item>     - Unequip an equipped item\n");
-    printf("  rest               - Rest to regain some health\n");
     printf("  status             - Show your current status\n");
-    printf("  map                - Display the map of discovered rooms\n");
     printf("  list               - List saved games\n");
     printf("  save <filepath>    - Save the current game state\n");
     printf("  load <filepath>    - Load a saved game state\n");
