@@ -341,18 +341,6 @@ void do_rest(GameState *game) {
     game->turn++;
 }
 
-void do_map(GameState *game) {
-    // Basit harita: sadece keşfedilen odaları göster.
-    // 0 - 1 - 2 - 3 - 4
-    printf("Map:\n");
-    for(int i=0; i<game->room_count; i++) {
-        if(game->rooms[i]->discovered) {
-            printf("[%d] %s\n", i, game->rooms[i]->description);
-        } else {
-            printf("[%d] Unknown\n", i);
-        }
-    }
-}
 
 void list_player_inventory_cmd(GameState *game) {
     list_player_inventory(game->player);
