@@ -93,8 +93,8 @@ GameState *init_game(void) {
     add_item_to_room(game->rooms[1], create_item("leather_armor", 8, ITEM_TYPE_ARMOR, 0, 2, 15));
     add_item_to_room(game->rooms[2], create_item("steel_sword", 6, ITEM_TYPE_WEAPON, 8, 0, 20));
     add_item_to_room(game->rooms[3], create_item("iron_armor", 10, ITEM_TYPE_ARMOR, 0, 5, 30));
-    add_item_to_room(game->rooms[4], create_item("magic_ring", 2, ITEM_TYPE_GENERIC, 2, 2, 50));
-    add_item_to_room(game->rooms[5], create_item("healing_potion", 2, ITEM_TYPE_FOOD, 0, 0, 25));
+    add_item_to_room(game->rooms[4], create_item("golden_armor", 2, ITEM_TYPE_ARMOR, 0, 7, 50));
+    add_item_to_room(game->rooms[5], create_item("cooper_sword", 2, ITEM_TYPE_FOOD, 6, 0, 25));
     add_item_to_room(game->rooms[6], create_item("silver_sword", 7, ITEM_TYPE_WEAPON, 10, 0, 35));
     add_item_to_room(game->rooms[7], create_item("diamond_armor", 12, ITEM_TYPE_ARMOR, 0, 10, 60));
     add_item_to_room(game->rooms[8], create_item("golden_key", 1, ITEM_TYPE_ARMOR, 0, 0, 20));
